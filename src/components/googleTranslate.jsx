@@ -15,7 +15,7 @@ function GoogleTranslate() {
       new window.google.translate.TranslateElement(
         {
           pageLanguage: "en",
-          includedLanguages: "en,fr,es,",
+          includedLanguages: "en,fr,es,pt,de,pl,it,sl,sk,ar",
           layout: window.google.translate.TranslateElement.InlineLayout.SIMPLE,
         },
         "google_translate_element"
