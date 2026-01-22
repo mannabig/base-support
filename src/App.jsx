@@ -4,7 +4,7 @@ import HeroSection from "./components/hero-section";
 import AboutSection from "./components/about-section";
 import FAQSection from "./components/faq-section";
 import TestimonialsPopup from "./components/testimonials-pop";
-import Footer from "./components/Footer";
+import Footer from "./components/footer";
 
 
 function App() {

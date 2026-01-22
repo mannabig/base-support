@@ -1,12 +1,14 @@
-export default function Footer() {
+import React from "react";
+
+function Footer() {
   return (
-    <footer className="w-full bg-[#0052ff] text-white py-3 px-4">
+    <div className="w-full bg-[#0052ff] text-white py-3 px-4">
       <div className="max-w-4xl mx-auto">
         {/* Contact Links */}
         <div className="flex flex-col sm:flex-row gap-3 justify-center items-center text-xs">
-          <a 
-            href="https://wa.me/14155552671" 
-            target="_blank" 
+          <a
+            href="https://wa.me/"
+            target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1 hover:text-white/80 transition-opacity"
           >
@@ -16,15 +18,15 @@ export default function Footer() {
             WhatsApp
           </a>
 
-          <a 
-            href="mailto:basenfteam@gmail.com"
+          <a
+            href="mailto:baseformerlys@gmail.com"
             className="flex items-center gap-1 hover:text-white/80 transition-opacity"
           >
             <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
               <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>
-              Email
-            </a>
+            Email
+          </a>
         </div>
 
         {/* Copyright */}
@@ -32,6 +34,8 @@ export default function Footer() {
           © 2025 Crypto Help Centre | All Rights Reserved
         </div>
       </div>
-    </footer>
+    </div>
   );
 }
+
+export default Footer;
