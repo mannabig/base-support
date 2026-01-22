@@ -6,7 +6,6 @@ import FAQSection from "./components/faq-section";
 import TestimonialsPopup from "./components/testimonials-pop";
 import Footer from "./components/footer";
 
-
 function App() {
   return (
     <main className="min-h-screen bg-white text-foreground flex flex-col">
