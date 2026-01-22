@@ -1,5 +1,5 @@
 import React from 'react'
-
+import GoogleTranslate from './googleTranslate'
 
 function Footer() {
   return (
@@ -29,13 +29,15 @@ function Footer() {
               Email
             </a>
            
+            <GoogleTranslate />
         </div>
         
 
         {/* Copyright */}
         <div className="text-center text-xs text-white/70 mt-2">
-          © 2025 Crypto Help Centre | All Rights Reserved
+          © 2025 Base Help Centre | All Rights Reserved
         </div>
+        
       </div>
     </div>
   )

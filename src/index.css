@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+#google_translate_element {
+    display: flex;
+    justify-content: center;
+}
+
+.goog-te-gadget {
+    font-size: 14px !important;
+}
