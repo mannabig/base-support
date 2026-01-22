@@ -1,4 +1,4 @@
-
+import back from "../assets/back.jpg"
 
 export default function HeroSection() {
   const handleEmailContact = () => {
@@ -13,7 +13,7 @@ export default function HeroSection() {
     <section 
       className="relative w-full py-8 px-4 bg-linear-to-br from-[#0052ff] to-[#003d99] overflow-hidden"
       style={{
-        backgroundImage: 'url(/back.jpg)',
+        backgroundImage: `url(${back})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed'
