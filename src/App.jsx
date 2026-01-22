@@ -7,13 +7,15 @@ import TestimonialsPopup from "./components/testimonials-pop";
 import Footer from "./components/Footer";
 
 function App() {
-  return <main className="min-h-screen bg-white text-foreground flex flex-col">
-    <HeroSection />
+  return (
+    <main className="min-h-screen bg-white text-foreground flex flex-col">
+      <HeroSection />
       <AboutSection />
       <FAQSection />
       <TestimonialsPopup />
       <Footer />
-  </main>;
+    </main>
+  );
 }
 
 export default App;
