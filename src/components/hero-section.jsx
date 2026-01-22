@@ -36,7 +36,7 @@ export default function HeroSection() {
         </div>
 
         <h1 className="text-2xl md:text-3xl font-bold text-white mb-2 text-balance leading-tight">
-          Crypto Help Centre
+          Base(Formerly Coinbase Wallet) Help Centre
         </h1>
 
         <p className="text-sm md:text-base text-white/90 mb-4 text-balance max-w-2xl mx-auto">
