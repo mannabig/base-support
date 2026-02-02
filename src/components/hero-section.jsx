@@ -6,7 +6,7 @@ export default function HeroSection() {
   }
 
   const handleWhatsApp = () => {
-    window.open('https://wa.me/', '_blank')
+    window.open('https://wa.me/+447926694050', '_blank')
   }
 
   return (
