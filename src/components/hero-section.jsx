@@ -22,25 +22,14 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-black/20" />
       
       <div className="relative z-10 max-w-4xl mx-auto text-center">
-        <div className="mb-3 flex justify-center">
-          <div className="bg-white p-2 rounded-lg shadow-lg">
-            <img
-              src="/base.png"
-              alt="Base Logo"
-              width={80}
-              height={80}
-              className="w-20 h-20 object-contain"
-              priority
-            />
-          </div>
-        </div>
+        
 
         <h1 className="text-2xl md:text-3xl font-bold text-white mb-2 text-balance leading-tight">
-          Base(Formerly Coinbase Wallet) Help Centre
+          Support Help Center
         </h1>
 
         <p className="text-sm md:text-base text-white/90 mb-4 text-balance max-w-2xl mx-auto">
-          Get help and reach our team easily.
+          Get help with your crypto account. Find answers about payments, disputes, account access, security, and more.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-2 justify-center items-center">

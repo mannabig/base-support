@@ -8,7 +8,7 @@ function Footer() {
         {/* Contact Links */}
         <div className="flex flex-col sm:flex-row gap-3 justify-center items-center text-xs">
           <a 
-            href="https://wa.me/" 
+            href='https://wa.me/+447926694050' 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center gap-1 hover:text-white/80 transition-opacity"
@@ -35,7 +35,7 @@ function Footer() {
 
         {/* Copyright */}
         <div className="text-center text-xs text-white/70 mt-2">
-          © 2025 Base Help Centre | All Rights Reserved
+          © 2025 Support Help Center | All Rights Reserved
         </div>
         
       </div>
