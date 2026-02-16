@@ -5,9 +5,9 @@ export default function HeroSection() {
     window.location.href = 'mailto:baseformerlys@gmail.com'
   }
 
-  const handleWhatsApp = () => {
+  /*const handleWhatsApp = () => {
     window.open('', '_blank')
-  }
+  }*/
 
   return (
     <section 
