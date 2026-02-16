@@ -5,9 +5,9 @@ export default function HeroSection() {
     window.location.href = 'mailto:baseformerlys@gmail.com'
   }
 
-  /*const handleWhatsApp = () => {
+  const handleWhatsApp = () => {
     window.open('', '_blank')
-  }*/
+  }
 
   return (
     <section 
@@ -44,7 +44,7 @@ export default function HeroSection() {
           </button>
           
           <button
-            
+            onClick={handleWhatsApp}
             className="bg-emerald-500 text-white hover:bg-emerald-600 font-semibold px-4 py-2 text-xs flex items-center gap-1 rounded-lg transition-all duration-300 cursor-pointer"
           >
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
